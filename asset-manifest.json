@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hunterbiu1205/portfolio-V3/static/css/main.8775fd7b.css",
-    "main.js": "/hunterbiu1205/portfolio-V3/static/js/main.0cd2cf59.js",
-    "static/js/787.d4aba7ab.chunk.js": "/hunterbiu1205/portfolio-V3/static/js/787.d4aba7ab.chunk.js",
-    "static/media/projects-bickfords.png": "/hunterbiu1205/portfolio-V3/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
-    "index.html": "/hunterbiu1205/portfolio-V3/index.html",
-    "main.8775fd7b.css.map": "/hunterbiu1205/portfolio-V3/static/css/main.8775fd7b.css.map",
-    "main.0cd2cf59.js.map": "/hunterbiu1205/portfolio-V3/static/js/main.0cd2cf59.js.map",
-    "787.d4aba7ab.chunk.js.map": "/hunterbiu1205/portfolio-V3/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/portfolio-V3/static/css/main.8775fd7b.css",
+    "main.js": "/portfolio-V3/static/js/main.23be81bd.js",
+    "static/js/787.d4aba7ab.chunk.js": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js",
+    "static/media/projects-bickfords.png": "/portfolio-V3/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
+    "index.html": "/portfolio-V3/index.html",
+    "main.8775fd7b.css.map": "/portfolio-V3/static/css/main.8775fd7b.css.map",
+    "main.23be81bd.js.map": "/portfolio-V3/static/js/main.23be81bd.js.map",
+    "787.d4aba7ab.chunk.js.map": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8775fd7b.css",
-    "static/js/main.0cd2cf59.js"
+    "static/js/main.23be81bd.js"
   ]
 }
