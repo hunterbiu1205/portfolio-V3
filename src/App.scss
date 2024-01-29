@@ -85,6 +85,29 @@
         padding: 0rem 1rem;
         border-radius: 5px;
     }
+
+    &:hover {
+        box-shadow: 0 0 1px #363636;
+        background: #0e0e0ea1;
+        transition: .25s linear 0s;
+
+        .m-block-year {
+            color: var(--secondary-color);
+        }
+
+        .m-block-heading {
+            color: var(--secondary-color);
+        }
+
+        .up-right-arrow {
+            color: var(--secondary-color);
+            transform: translate(0.25rem, -0.25rem);
+        }
+    }
+
+    ul {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .m-block-year {
@@ -99,7 +122,7 @@
 }
 
 
-.m-project-img{
+.m-project-img {
     width: 130px;
     border-radius: 3px;
     margin-top: 1.5rem;
@@ -122,7 +145,16 @@
     display: inline-block;
     margin-bottom: -0.2rem;
     margin-left: 0.2rem;
-    transition: transform .25s ease-out;
+    transition: transform .15s ease-out;
+}
+
+.right-arrow {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-bottom: -0.2rem;
+    margin-left: 0.2rem;
+    transition: transform .1s ease-out;
 }
 
 .skill-tag {
@@ -136,4 +168,3 @@
     background-color: rgba(131, 117, 47, 0.247);
     border-radius: 99px;
 }
-

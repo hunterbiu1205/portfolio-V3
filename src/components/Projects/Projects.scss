@@ -1,0 +1,22 @@
+.m-resume {
+    display: flex;
+    margin: 2rem -2rem;
+    padding: 0rem 2rem;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        margin: 4rem -1rem;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+    }
+
+    &:hover {
+        .m-block-heading {
+            color: var(--secondary-color);
+        }
+        .right-arrow {
+            color: var(--secondary-color);
+            transform: translate(0.4rem, 0rem);
+        }
+    }
+}

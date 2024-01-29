@@ -28,28 +28,6 @@
             margin-top: 0rem;
         }
 
-        .m-block {
-            &:hover {
-                box-shadow: 0 0 1px #363636;
-                background: #0e0e0ea1;
-                transition: .25s linear 0s;
-
-                .m-block-year {
-                    color: var(--secondary-color);
-                }
-                .m-block-heading {
-                    color: var(--secondary-color);
-                }
-                .up-right-arrow {
-                    color: var(--secondary-color);
-                    transform: translate(0.25rem, -0.25rem);
-                }
-            }
-            ul{
-                margin-bottom: 1.5rem;
-            }
-        }
-
         .m-resume {
             display: flex;
             margin: 2rem -2rem;
