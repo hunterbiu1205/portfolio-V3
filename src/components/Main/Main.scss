@@ -1,13 +1,11 @@
 .app-main {
     width: 50%;
     box-sizing: border-box;
-    padding-top: 5rem;
     padding-bottom: 5rem;
     color: var(--gray-color);
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        padding-top: 0rem;
     }
 
     .mobile-section-heading {
@@ -15,45 +13,66 @@
 
         @media screen and (max-width: 768px) {
             display: block;
-            margin-top: 5rem;
+            // margin-top: 5rem;
             margin-bottom: 2rem;
             color: var(--white-color);
         }
     }
 
-    .main-experiences {
-        margin-top: 5rem;
+    .m-block {
+        display: flex;
+        margin: 2rem -2rem 0rem -2rem;
+        padding: 0rem 2rem;
 
         @media screen and (max-width: 768px) {
-            margin-top: 0rem;
+            display: block;
+            margin: 3rem -1rem 0rem -1rem;
+            padding: 0rem 1rem;
+            border-radius: 5px;
         }
 
-        .m-resume {
-            display: flex;
-            margin: 2rem -2rem;
-            padding: 0rem 2rem;
-        
+        .m-block-year {
+            width: 150px;
+            font-weight: 500;
+
             @media screen and (max-width: 768px) {
-                display: block;
-                margin: 4rem -1rem;
-                padding: 0rem 1rem;
-                border-radius: 5px;
-            }
-
-            &:hover {
-                .m-block-heading {
-                    color: var(--secondary-color);
-                }
-                .up-right-arrow {
-                    color: var(--secondary-color);
-                    transform: translate(0.25rem, -0.25rem);
-                }
+                width: 100%;
+                line-height: 1rem;
+                font-weight: 600;
             }
         }
-    }
 
-    #projects{
-        margin-top: 5rem;
-    }
+        .m-block-heading {
+            font-weight: 600;
+            color: var(--white-color);
 
+            @media screen and (max-width: 768px) {
+                line-height: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 0 1px #363636;
+            background: #0e0e0ea1;
+            transition: .25s linear 0s;
+
+            .m-block-year {
+                color: var(--secondary-color);
+            }
+
+            .m-block-heading {
+                color: var(--secondary-color);
+            }
+
+            .up-right-arrow {
+                color: var(--secondary-color);
+                transform: translate(0.25rem, -0.25rem);
+            }
+        }
+
+        ul {
+            margin-bottom: 1.5rem;
+        }
+    }
 }

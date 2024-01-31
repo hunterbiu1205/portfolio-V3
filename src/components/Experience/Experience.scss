@@ -1,0 +1,64 @@
+   .main-experiences {
+        padding-top: 5rem;
+
+        .m-resume {
+            display: flex;
+            margin: 2rem -2rem;
+            padding: 0rem 2rem;
+        
+            @media screen and (max-width: 768px) {
+                display: block;
+                margin: 4rem -1rem;
+                padding: 0rem 1rem;
+                border-radius: 5px;
+            }
+
+            .m-block-year {
+                width: 150px;
+                font-weight: 500;
+    
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    line-height: 1rem;
+                    font-weight: 600;
+                }
+            }
+
+            .m-block-heading {
+                font-weight: 600;
+                color: var(--white-color);
+    
+                @media screen and (max-width: 768px) {
+                    line-height: 1rem;
+                    font-weight: 600;
+                }
+
+                &:after {    
+                    content: "";
+                    display: block;
+                    position: relative;
+                    width: 0;
+                    height: 2px;
+                    margin-top: 3px;
+
+                    background: var(--secondary-color);
+                    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                   
+                  }
+
+                  &:hover:after { 
+                    width: 100%; 
+                  }
+            }
+            
+            &:hover {
+                .m-block-heading {
+                    color: var(--secondary-color);
+                }
+                .up-right-arrow {
+                    color: var(--secondary-color);
+                    transform: translate(0.25rem, -0.25rem);
+                }
+            }
+        }
+    }

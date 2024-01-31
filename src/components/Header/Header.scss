@@ -45,19 +45,18 @@
 
         h3 {
             line-height: 2rem;
-            // font-size: 20px;
             font-weight: 500;
             color: var(--gray-color);
 
             @media screen and (max-width: 768px) {
                 line-height: 1.5rem;
-                // font-size: 18px;
             }
         }
 
     }
 
     .header-menu {
+        margin-top: 3rem;
 
         @media screen and (max-width: 768px) {
             display: none;

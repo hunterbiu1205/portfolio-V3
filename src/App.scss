@@ -74,70 +74,7 @@
 
 
 
-.m-block {
-    display: flex;
-    margin: 2rem -2rem 0rem -2rem;
-    padding: 0rem 2rem;
 
-    @media screen and (max-width: 768px) {
-        display: block;
-        margin: 3rem -1rem 0rem -1rem;
-        padding: 0rem 1rem;
-        border-radius: 5px;
-    }
-
-    &:hover {
-        box-shadow: 0 0 1px #363636;
-        background: #0e0e0ea1;
-        transition: .25s linear 0s;
-
-        .m-block-year {
-            color: var(--secondary-color);
-        }
-
-        .m-block-heading {
-            color: var(--secondary-color);
-        }
-
-        .up-right-arrow {
-            color: var(--secondary-color);
-            transform: translate(0.25rem, -0.25rem);
-        }
-    }
-
-    ul {
-        margin-bottom: 1.5rem;
-    }
-}
-
-.m-block-year {
-    width: 150px;
-    font-weight: 500;
-
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        line-height: 1rem;
-        font-weight: 600;
-    }
-}
-
-
-.m-project-img {
-    width: 130px;
-    border-radius: 3px;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
-    margin-left: 0rem;
-}
-
-.m-block-heading {
-    font-weight: 500;
-
-    @media screen and (max-width: 768px) {
-        line-height: 1rem;
-        font-weight: 600;
-    }
-}
 
 .up-right-arrow {
     width: 1rem;

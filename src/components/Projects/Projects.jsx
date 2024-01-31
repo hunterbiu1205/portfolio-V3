@@ -229,14 +229,14 @@ export default function Projects() {
         </a>
 
         {/* resume */}
-        <div className="m-resume">
+        <div className="m-project-archive">
           <div className="m-block-year"></div>
           <div>
             <a
-              href={Resume}
+              // href={Resume}
               target="_blank"
               rel="noreferrer noopener"
-              aria-label="View Full Résumé (opens in a new tab)"
+              aria-label="View full project archive (opens in a new tab)"
             >
               <h4 className="m-block-heading">
                 View Full Project Archive
