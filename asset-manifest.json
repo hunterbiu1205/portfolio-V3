@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-V3/static/css/main.001f47c7.css",
-    "main.js": "/portfolio-V3/static/js/main.91b26f44.js",
+    "main.css": "/portfolio-V3/static/css/main.4176bba2.css",
+    "main.js": "/portfolio-V3/static/js/main.e1c7e888.js",
     "static/js/787.d4aba7ab.chunk.js": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js",
     "static/media/Modern UI UX Restaurant.png": "/portfolio-V3/static/media/Modern UI UX Restaurant.46108b0f61ef7ce2637c.png",
     "static/media/projects-bickfords.png": "/portfolio-V3/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
@@ -9,12 +9,12 @@
     "static/media/w&b cart page refresh.png": "/portfolio-V3/static/media/w&b cart page refresh.292d3d014fd45f810aec.png",
     "static/media/Hunter-Dong-Resume.pdf": "/portfolio-V3/static/media/Hunter-Dong-Resume.8309e2b7e32139494c8c.pdf",
     "index.html": "/portfolio-V3/index.html",
-    "main.001f47c7.css.map": "/portfolio-V3/static/css/main.001f47c7.css.map",
-    "main.91b26f44.js.map": "/portfolio-V3/static/js/main.91b26f44.js.map",
+    "main.4176bba2.css.map": "/portfolio-V3/static/css/main.4176bba2.css.map",
+    "main.e1c7e888.js.map": "/portfolio-V3/static/js/main.e1c7e888.js.map",
     "787.d4aba7ab.chunk.js.map": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.001f47c7.css",
-    "static/js/main.91b26f44.js"
+    "static/css/main.4176bba2.css",
+    "static/js/main.e1c7e888.js"
   ]
 }
