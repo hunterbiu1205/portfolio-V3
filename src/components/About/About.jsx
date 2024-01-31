@@ -9,20 +9,15 @@ export default function About() {
         <h3 className="uppercase mobile-section-heading">About</h3>
 
         <p className="p-text">
-          I'm currently a dedicated web developer who is passionate about
-          continuous learning and growth, with a particular focus on front-end
-          development and UI/UX. In today's fast-paced tech landscape, I thrive
-          on staying up-to-date with emerging technologies while nurturing my
-          enduring love for development.{" "}
+        Back in 2018, I made the leap into studying Computer Science, diving headfirst into the fascinating world of coding and web development. Fast-forward to today, and I'm privileged to apply what I've learned, turning my passion into a fulfilling journey.
         </p>
 
         <p className="p-text">
-          My main focus these days is building websites and projects for our
-          marketing team at Bickford's Group. When I’m not at the computer, I
-          find immense joy in exploring the great outdoors. Hiking, travelling,
-          and engaging in various outdoor activities allow me to connect with
-          the world, offering a refreshing perspective that complements my
-          enthusiasm for development.{" "}
+        My main focus these days is building websites and solutions for our marketing and e-commerce teams at Bickford’s Group. I love creating software where design meets development - making things look good and work seamlessly. It's the sweet spot where beauty and functionality come together, and that's where I find my passion and joy.
+        </p>
+
+        <p className="p-text">
+       When I'm not glued to the computer, you'll find me out and about, loving life in the great outdoors. Hiking, travelling, and doing all sorts of outdoor stuff help me see the world from a different angle. It's all about balance, you know?
         </p>
       </section>
     </div>

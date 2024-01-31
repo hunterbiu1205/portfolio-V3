@@ -37,16 +37,16 @@ export default function Experience() {
                 </svg>
               </h4>
               <p className="p-text2">
-                As a web developer, I specialized in creating responsive website
-                solutions, transforming stakeholder briefs and artwork into
-                aesthetically pleasing and highly functional websites.
-                Additionally, I played a crucial role in maintaining and
-                enhancing various group e-commerce websites, including Sippify,
-                Wheel & Barrow, and Karma Living. Furthermore, I actively
-                contributed to design and content updates, ensuring both
-                aesthetic and functional improvements. I conducted user testing
-                and research to optimize website performance and enhance the
-                overall user experience.
+                Build, design, maintain and ship high-quality websites and
+                solutions for a diverse array of projects. Played a crucial role
+                in maintaining and enhancing group e-commerce websites,
+                including Sippify, Wheel & Barrow, and Karma Living. Provide
+                advice within the team through close collaboration, knowledge
+                shares and spearheading the development. Actively contributed to
+                design and content updates, ensuring both aesthetic and
+                functional improvements. Conducted user testing and research to
+                optimize website performance and enhance the overall user
+                experience.
               </p>
 
               <ul className="flex flex-wrap">
@@ -104,7 +104,12 @@ export default function Experience() {
         <div className="m-resume">
           <div className="m-block-year"></div>
           <div>
-            <a href={Resume} target = "_blank" rel="noreferrer noopener" aria-label="View Full Résumé (opens in a new tab)">
+            <a
+              href={Resume}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="View Full Résumé (opens in a new tab)"
+            >
               <h4 className="m-block-heading">
                 View Full Résumé{" "}
                 <svg
@@ -124,8 +129,6 @@ export default function Experience() {
             </a>
           </div>
         </div>
-
-        
       </section>
     </div>
   );

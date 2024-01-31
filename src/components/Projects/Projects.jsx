@@ -40,23 +40,24 @@ export default function Projects() {
                 </svg>
               </h4>
               <p className="p-text2">
-                As a web developer, I specialized in creating responsive website
-                solutions, transforming stakeholder briefs and artwork into
-                aesthetically pleasing and highly functional websites.
+                Bickford’s website underwent a successful redesign and
+                development, aligning seamlessly with the requirements and brief
+                provided by the marketing team. The results garnered positive
+                reviews internally and externally.
               </p>
 
               <ul className="flex flex-wrap">
                 <li>
-                  <div className="skill-tag">React</div>
-                </li>
-                <li>
-                  <div className="skill-tag">SCSS</div>
-                </li>
-                <li>
-                  <div className="skill-tag">Wordpress</div>
+                  <div className="skill-tag">WordPress</div>
                 </li>
                 <li>
                   <div className="skill-tag">PHP</div>
+                </li>
+                <li>
+                  <div className="skill-tag">JavaScript</div>
+                </li>
+                <li>
+                  <div className="skill-tag">HTML & CSS</div>
                 </li>
               </ul>
             </div>
@@ -96,24 +97,23 @@ export default function Projects() {
                 </svg>
               </h4>
               <p className="p-text2">
-                Revamping the "Wheel & Barrow Cart Page," I redesigned,
-                developed, and published a more organized and aesthetically
-                pleasing layout. A notable boost in conversion rates, signaling
-                the project's success in enhancing the overall user experience.
+                Revamping the "Wheel & Barrow Cart Page," Redesigned, developed,
+                and published a more organized and aesthetically pleasing
+                layout—a success in enhancing the checkout user experience.
               </p>
 
               <ul className="flex flex-wrap">
                 <li>
-                  <div className="skill-tag">React</div>
+                  <div className="skill-tag">Liquid</div>
                 </li>
                 <li>
-                  <div className="skill-tag">SCSS</div>
+                  <div className="skill-tag">JavaScript</div>
                 </li>
                 <li>
-                  <div className="skill-tag">Wordpress</div>
+                  <div className="skill-tag">HTML & CSS</div>
                 </li>
                 <li>
-                  <div className="skill-tag">PHP</div>
+                  <div className="skill-tag">jQuery</div>
                 </li>
               </ul>
             </div>
@@ -157,16 +157,16 @@ export default function Projects() {
 
               <ul className="flex flex-wrap">
                 <li>
-                  <div className="skill-tag">React</div>
-                </li>
-                <li>
-                  <div className="skill-tag">SCSS</div>
-                </li>
-                <li>
                   <div className="skill-tag">Wordpress</div>
                 </li>
                 <li>
                   <div className="skill-tag">PHP</div>
+                </li>
+                <li>
+                  <div className="skill-tag">JavaScript</div>
+                </li>
+                <li>
+                  <div className="skill-tag">HTML & CSS</div>
                 </li>
               </ul>
             </div>
@@ -218,10 +218,10 @@ export default function Projects() {
                   <div className="skill-tag">SCSS</div>
                 </li>
                 <li>
-                  <div className="skill-tag">Wordpress</div>
+                  <div className="skill-tag">UI/UX</div>
                 </li>
                 <li>
-                  <div className="skill-tag">PHP</div>
+                  <div className="skill-tag">Git</div>
                 </li>
               </ul>
             </div>
@@ -239,7 +239,7 @@ export default function Projects() {
               aria-label="View Full Résumé (opens in a new tab)"
             >
               <h4 className="m-block-heading">
-              View Full Project Archive
+                View Full Project Archive
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
