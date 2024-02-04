@@ -3,9 +3,8 @@ import "./Main.scss";
 
 import About from "../About/About";
 import Experience from "../Experience/Experience";
-import Projects from "../Projects/Projects"
-
-// import bickfords from "../../assets/projects-bickfords.png";
+import Projects from "../Projects/Projects";
+import Footer from '../Footer/Footer';
 
 export default function Main() {
   return (
@@ -14,8 +13,7 @@ export default function Main() {
       <About />
       <Experience />
       <Projects/>
-      
-      
+      <Footer/>
     </div>
   );
 }

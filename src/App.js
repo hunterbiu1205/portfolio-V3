@@ -1,12 +1,16 @@
 import './App.scss';
-import {Header, Main} from './components'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home/Home';
+import Archive from './pages/Archive/Archive';
 
 function App() {
   return (
-    <div className="app max-w-screen-xl mx-auto ">
-      <Header />
-      <Main />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/archive" element={<Archive />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

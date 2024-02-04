@@ -1,12 +1,30 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import "./About.scss";
 
 export default function About() {
+
+  const[isSticky,setSticky] =useState(false);
+
+  useEffect(()=>{
+    const handleScroll =()=>{
+      const header = document.querySelector('.sticky-header-about');
+      const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+      setSticky(isHeaderAtTop);
+    };
+
+    window.addEventListener('scroll',handleScroll);
+
+    return()=>{
+      window.removeEventListener('scroll',handleScroll);
+    };
+  },[]);
+
+
   return (
     <div>
       {/* about */}
       <section id="about">
-        <h3 className="uppercase mobile-section-heading">About</h3>
+      <h3 className={`sticky-header-about uppercase mobile-section-heading ${isSticky ? 'scrolled-about' : ''}`}>About</h3>
 
         <p className="p-text">
         Back in 2018, I made the leap into studying Computer Science, diving headfirst into the fascinating world of coding and web development. Fast-forward to today, and I'm privileged to apply what I've learned, turning my passion into a fulfilling journey.

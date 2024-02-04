@@ -41,6 +41,14 @@
 .p-text2 {
     line-height: 1.5rem;
     font-size: 14px;
+
+    a {
+        font-weight: 700;
+
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
 }
 
 .items-center {
@@ -70,12 +78,6 @@
     margin-right: 1.5rem;
 }
 
-
-
-
-
-
-
 .up-right-arrow {
     width: 1rem;
     height: 1rem;
@@ -94,6 +96,20 @@
     transition: transform .1s ease-out;
 }
 
+.left-arrow {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-bottom: -0.15rem;
+    margin-right: 0.4rem;
+    transition: transform 0.1s ease-out;
+    transform: rotate(180deg);
+
+    // &:hover {
+    //     transform: rotate(180deg) translate(0.5rem, 0rem);
+    // }
+}
+
 .skill-tag {
     margin-top: 0.5rem;
     margin-right: 0.5rem;
@@ -104,4 +120,50 @@
     color: var(--secondary-color);
     background-color: rgba(131, 117, 47, 0.247);
     border-radius: 99px;
+}
+
+
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+} 
+
+.pr-2 {
+    padding-right: 2rem;
+}
+
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.font-semibold{
+    font-weight: 600;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.border-slate-300\/10 {
+    border-color: rgba(203,213,225,.1);
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.desk-hidden{
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
+.mobile-hidden{
+    display: block;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 }

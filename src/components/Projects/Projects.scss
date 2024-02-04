@@ -71,3 +71,20 @@
         }
     }
 }
+
+
+
+.sticky-header-projects {
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    /* Add smooth transition effect */
+    backdrop-filter: blur(0);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+ 
+}
+
+.scrolled-projects{
+    backdrop-filter: blur(10px);
+}
