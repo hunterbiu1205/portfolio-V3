@@ -22,7 +22,7 @@ export default function Archive() {
   return (
     <div className="app max-w-screen-xl mx-auto app-archive">
       <div className="archive-header">
-        <Link to="/">
+        <Link to="/portfolio-V3">
           <h4>
             <svg
               xmlns="http://www.w3.org/2000/svg"
