@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import "./Projects.scss";
 import images from "../../constant/images";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Projects() {
 
@@ -246,9 +246,8 @@ useEffect(()=>{
         <div className="m-project-archive">
           <div className="m-block-year"></div>
           <div>
-            <Link to="/archive">
-              {" "}
-             
+          <NavLink to="./archive">
+
               <h4 className="m-block-heading">
                 View Full Project Archive
                 <svg
@@ -265,7 +264,7 @@ useEffect(()=>{
                   ></path>
                 </svg>
               </h4>
-            </Link>
+            </NavLink>
           </div>
         </div>
       </section>
