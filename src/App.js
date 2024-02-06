@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
      <ScrollToTop/>
       <Routes>
-        <Route path="/portfolio-V3" element={<Home />} />
-        <Route path="/portfolio-V3/archive" element={<Archive />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/archive" element={<Archive />} />
    
       </Routes>
       
