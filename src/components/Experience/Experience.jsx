@@ -1,25 +1,24 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react';
+import { debounce } from 'lodash';
 import "./Experience.scss";
-import Resume from "../../assets/Hunter-Dong-Resume.pdf"
+import Resume from "../../assets/Hunter-Dong-Resume.pdf";
 
 export default function Experience() {
+  const [isSticky, setSticky] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = debounce(() => {
+      const header = document.querySelector('.sticky-header-experience');
+      const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+      setSticky(isHeaderAtTop);
+    }, 200); // Adjust the debounce delay as needed (e.g., 200 milliseconds)
 
-const[isSticky,setSticky] =useState(false);
+    window.addEventListener('scroll', handleScroll);
 
-useEffect(()=>{
-  const handleScroll =()=>{
-    const header = document.querySelector('.sticky-header-experience');
-    const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-    setSticky(isHeaderAtTop);
-  };
-
-  window.addEventListener('scroll',handleScroll);
-
-  return()=>{
-    window.removeEventListener('scroll',handleScroll);
-  };
-},[]);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div>

@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import "./Projects.scss";
+import { debounce } from 'lodash';
 import images from "../../constant/images";
 import { NavLink } from "react-router-dom";
 
@@ -7,19 +8,19 @@ export default function Projects() {
 
   const [isSticky,setSticky]=useState(false);
 
-useEffect(()=>{
-  const handleScroll = () =>{
-    const header = document.querySelector('.sticky-header-projects');
-    const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-    setSticky(isHeaderAtTop);
-  };
+  useEffect(() => {
+    const handleScroll = debounce(() => {
+      const header = document.querySelector('.sticky-header-projects');
+      const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+      setSticky(isHeaderAtTop);
+    }, 200); // Adjust the debounce delay as needed (e.g., 200 milliseconds)
 
-  window.addEventListener('scroll',handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-  return()=>{
-    window.removeEventListener('scroll',handleScroll);
-  }
-},[]);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div>
