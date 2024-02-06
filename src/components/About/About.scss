@@ -5,16 +5,14 @@
 .sticky-header-about {
     // transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
     /* Add smooth transition effect */
-    // backdrop-filter: blur(0);
+    backdrop-filter: blur(0);
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #000;
  
 }
 
 .scrolled-about{
-    background-color: #000;
-    // backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
