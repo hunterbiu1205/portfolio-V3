@@ -5,27 +5,29 @@ import Resume from "../../assets/Hunter-Dong-Resume.pdf"
 export default function Experience() {
 
 
-const[isSticky,setSticky] =useState(false);
+// const[isSticky,setSticky] =useState(false);
 
-useEffect(()=>{
-  const handleScroll =()=>{
-    const header = document.querySelector('.sticky-header-experience');
-    const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-    setSticky(isHeaderAtTop);
-  };
+// useEffect(()=>{
+//   const handleScroll =()=>{
+//     const header = document.querySelector('.sticky-header-experience');
+//     const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+//     setSticky(isHeaderAtTop);
+//   };
 
-  window.addEventListener('scroll',handleScroll);
+//   window.addEventListener('scroll',handleScroll);
 
-  return()=>{
-    window.removeEventListener('scroll',handleScroll);
-  };
-},[]);
+//   return()=>{
+//     window.removeEventListener('scroll',handleScroll);
+//   };
+// },[]);
 
   return (
     <div>
       <section className="main-experiences" id="experience">
 
-      <h3 className={`sticky-header-experience uppercase mobile-section-heading ${isSticky ? 'scrolled-experience' : ''}`}>Experience</h3>
+      {/* <h3 className={`sticky-header-experience uppercase mobile-section-heading ${isSticky ? 'scrolled-experience' : ''}`}>Experience</h3> */}
+
+      <h3 className="sticky-header-experience uppercase mobile-section-heading">Experience</h3>
 
         {/* Bickford's group */}
         <a

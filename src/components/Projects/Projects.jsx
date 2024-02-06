@@ -5,26 +5,29 @@ import { NavLink } from "react-router-dom";
 
 export default function Projects() {
 
-  const [isSticky,setSticky]=useState(false);
+// const [isSticky,setSticky]=useState(false);
 
-useEffect(()=>{
-  const handleScroll = () =>{
-    const header = document.querySelector('.sticky-header-projects');
-    const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-    setSticky(isHeaderAtTop);
-  };
+// useEffect(()=>{
+//   const handleScroll = () =>{
+//     const header = document.querySelector('.sticky-header-projects');
+//     const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+//     setSticky(isHeaderAtTop);
+//   };
 
-  window.addEventListener('scroll',handleScroll);
+//   window.addEventListener('scroll',handleScroll);
 
-  return()=>{
-    window.removeEventListener('scroll',handleScroll);
-  }
-},[]);
+//   return()=>{
+//     window.removeEventListener('scroll',handleScroll);
+//   }
+// },[]);
 
   return (
     <div>
       <section id="projects">
-      <h3 className={`sticky-header-projects uppercase mobile-section-heading ${isSticky ? 'scrolled-projects' : ''}`}>Projects</h3>
+
+      {/* <h3 className={`sticky-header-projects uppercase mobile-section-heading ${isSticky ? 'scrolled-projects' : ''}`}>Projects</h3> */}
+
+      <h3 className="sticky-header-projects uppercase mobile-section-heading">Projects</h3>
 
         {/* Bickford's Australia */}
         <a href="https://www.bickfords.net/" rel="noreferrer" target="_blank">
