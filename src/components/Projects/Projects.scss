@@ -4,18 +4,6 @@
     @media screen and (max-width: 768px) {
         padding-top: 2rem;
     }
-
-    .mobile-section-heading {
-        display: none;
-
-        @media screen and (max-width: 768px) {
-            display: block;
-            // margin-top: 5rem;
-            padding: 1rem 0rem;
-            margin-bottom: -1rem;
-            color: var(--white-color);
-        }
-    }
 }
 
 .m-project-img {
