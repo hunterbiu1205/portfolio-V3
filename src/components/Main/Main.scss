@@ -14,8 +14,11 @@
         @media screen and (max-width: 768px) {
             display: block;
             // margin-top: 5rem;
-            padding: 1rem 0rem;
-            margin: 2rem 0rem;
+            // padding: 1rem 0rem;
+            // margin: 2rem 0rem;
+
+            margin: 2rem -2rem  2rem -2rem;
+            padding:1rem 2rem  1rem  2rem;
             color: var(--white-color);
         }
     }
