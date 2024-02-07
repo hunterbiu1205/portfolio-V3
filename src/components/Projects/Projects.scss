@@ -16,81 +16,42 @@
 
 .m-project-archive {
     display: flex;
-    margin: 2rem -2rem;
-    padding: 0rem 2rem;
-
-    @media screen and (max-width: 768px) {
-        display: block;
-        margin: 4rem -1rem;
-        padding: 0rem 1rem;
-        border-radius: 5px;
-    }
+    margin: 3rem 0rem;
 
     .m-block-year {
         width: 150px;
-        font-weight: 500;
 
         @media screen and (max-width: 768px) {
-            width: 100%;
-            line-height: 1rem;
-            font-weight: 600;
+            display: none;
         }
     }
 
-    .m-block-heading {
+    .m-project-archive-heading {
         font-weight: 600;
         color: var(--white-color);
 
-        @media screen and (max-width: 768px) {
-            line-height: 1rem;
-            font-weight: 600;
+        &:hover {
+            color: var(--secondary-color);
+
+            .right-arrow {
+                color: var(--secondary-color);
+                transform: translate(0.4rem, 0rem);
+            }
         }
 
-        &:after {    
+        &:after {
             content: "";
             display: block;
             position: relative;
             width: 0;
             height: 2px;
             margin-top: 5px;
-
             background: var(--secondary-color);
             transition: width 0.3s ease 0s, left 0.3s ease 0s;
-           
-          }
-
-          &:hover:after { 
-            width: 100%; 
-          }
-    }
-
-
-    &:hover {
-        .m-block-heading {
-            color: var(--secondary-color);
         }
-        .right-arrow {
-            color: var(--secondary-color);
-            transform: translate(0.4rem, 0rem);
+
+        &:hover:after {
+            width: 102%;
         }
     }
-}
-
-
-
-.sticky-header-projects {
-    // transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    /* Add smooth transition effect */
-    // backdrop-filter: blur(0);
-
-    backdrop-filter: blur(20px);
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
- 
-}
-
-.scrolled-projects{
-    backdrop-filter: blur(20px);
 }

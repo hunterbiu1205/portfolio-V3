@@ -55,9 +55,8 @@ export default function Archive() {
           </tr>
         </thead>
 
-
-             {/* project1 */}
-             <tbody>
+        {/* project1 */}
+        <tbody>
           <tr>
             <td>
               <div>2024</div>
@@ -76,7 +75,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    Portfolio Website V3
+                      Portfolio Website V3
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -122,7 +121,7 @@ export default function Archive() {
                   >
                     <span>
                       <span>
-                      hunterdong.com
+                        hunterdong.com
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -144,7 +143,6 @@ export default function Archive() {
             </td>
           </tr>
         </tbody>
-
 
         {/* project2 */}
         <tbody>
@@ -238,9 +236,8 @@ export default function Archive() {
           </tr>
         </tbody>
 
-
-          {/* project3 */}
-          <tbody>
+        {/* project3 */}
+        <tbody>
           <tr>
             <td>
               <div>2023</div>
@@ -283,7 +280,7 @@ export default function Archive() {
             </td>
             <td className="project-built-with">
               <ul className="flex flex-wrap">
-              <li>
+                <li>
                   <div className="skill-tag">HTML & CSS</div>
                 </li>
                 <li>
@@ -326,7 +323,6 @@ export default function Archive() {
             </td>
           </tr>
         </tbody>
-
 
         {/* project4 */}
         <tbody>
@@ -420,8 +416,8 @@ export default function Archive() {
           </tr>
         </tbody>
 
-       {/* project5 */}
-       <tbody>
+        {/* project5 */}
+        <tbody>
           <tr>
             <td>
               <div>2023</div>
@@ -460,7 +456,7 @@ export default function Archive() {
               </div>
             </td>
             <td>
-              <div>	Personal Project</div>
+              <div> Personal Project</div>
             </td>
             <td className="project-built-with">
               <ul className="flex flex-wrap">
@@ -489,8 +485,8 @@ export default function Archive() {
                   >
                     <span>
                       <span>
-                          GitHub
-                          <svg
+                        GitHub
+                        <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 16 16"
                           fill="currentColor"
@@ -528,7 +524,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    Beenleigh Rum
+                      Beenleigh Rum
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -608,7 +604,7 @@ export default function Archive() {
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-              W&B Cart Page Refresh
+                W&B Cart Page Refresh
               </div>
 
               <div class="desk-hidden">
@@ -620,7 +616,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    W&B Cart Page Refresh
+                      W&B Cart Page Refresh
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -669,7 +665,7 @@ export default function Archive() {
                   >
                     <span>
                       <span>
-                          wheelandbarrow.com.au/cart
+                        wheelandbarrow.com.au/cart
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -692,8 +688,6 @@ export default function Archive() {
           </tr>
         </tbody>
 
-       
-
         {/* project8 */}
         <tbody>
           <tr>
@@ -701,9 +695,7 @@ export default function Archive() {
               <div>2023</div>
             </td>
             <td>
-              <div className="mobile-hidden content-project-name">
-                Yerbi
-              </div>
+              <div className="mobile-hidden content-project-name">Yerbi</div>
 
               <div class="desk-hidden">
                 <a
@@ -714,7 +706,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    Yerbi
+                      Yerbi
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -734,7 +726,7 @@ export default function Archive() {
               </div>
             </td>
             <td>
-              <div>	Bickford's Group</div>
+              <div> Bickford's Group</div>
             </td>
             <td className="project-built-with">
               <ul className="flex flex-wrap">
@@ -747,7 +739,6 @@ export default function Archive() {
                 <li>
                   <div className="skill-tag">JavaScript</div>
                 </li>
-             
               </ul>
             </td>
             <td>
@@ -761,7 +752,7 @@ export default function Archive() {
                   >
                     <span>
                       <span>
-                      yerbi.com.au
+                        yerbi.com.au
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -792,7 +783,7 @@ export default function Archive() {
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-              Bickford’s Group
+                Bickford’s Group
               </div>
 
               <div class="desk-hidden">
@@ -804,7 +795,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    Bickford’s Group
+                      Bickford’s Group
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -853,7 +844,7 @@ export default function Archive() {
                   >
                     <span>
                       <span>
-                      bickfordsgroup.com
+                        bickfordsgroup.com
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -884,7 +875,7 @@ export default function Archive() {
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-              Vok Beverage
+                Vok Beverage
               </div>
 
               <div class="desk-hidden">
@@ -896,7 +887,7 @@ export default function Archive() {
                 >
                   <span>
                     <span className=" content-project-name">
-                    Vok Beverage
+                      Vok Beverage
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -916,8 +907,7 @@ export default function Archive() {
               </div>
             </td>
             <td>
-              <div>	
-Bickford's Group</div>
+              <div>Bickford's Group</div>
             </td>
             <td className="project-built-with">
               <ul className="flex flex-wrap">
@@ -946,7 +936,7 @@ Bickford's Group</div>
                   >
                     <span>
                       <span>
-                      vok.com.au
+                        vok.com.au
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -977,7 +967,7 @@ Bickford's Group</div>
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-              Five Square Mile
+                Five Square Mile
               </div>
 
               <div class="desk-hidden">
@@ -989,7 +979,7 @@ Bickford's Group</div>
                 >
                   <span>
                     <span className=" content-project-name">
-                    Five Square Mile
+                      Five Square Mile
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -1035,7 +1025,7 @@ Bickford's Group</div>
                   >
                     <span>
                       <span>
-                      5squaremiledistillery.com
+                        5squaremiledistillery.com
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -1066,7 +1056,7 @@ Bickford's Group</div>
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-               Portfolio V1
+                Portfolio V1
               </div>
 
               <div class="desk-hidden">
@@ -1078,7 +1068,7 @@ Bickford's Group</div>
                 >
                   <span>
                     <span className=" content-project-name">
-                    Portfolio V1
+                      Portfolio V1
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -1126,9 +1116,9 @@ Bickford's Group</div>
                     aria-label=""
                   >
                     <span>
-                    <span>
-                          GitHub
-                          <svg
+                      <span>
+                        GitHub
+                        <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 16 16"
                           fill="currentColor"
@@ -1154,7 +1144,7 @@ Bickford's Group</div>
             </td>
             <td>
               <div className="mobile-hidden content-project-name">
-              Modern UI/UX Restaurant
+                Modern UI/UX Restaurant
               </div>
 
               <div class="desk-hidden">
@@ -1166,7 +1156,7 @@ Bickford's Group</div>
                 >
                   <span>
                     <span className=" content-project-name">
-                    ModernUI/UX Restaurant
+                      ModernUI/UX Restaurant
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -1186,7 +1176,7 @@ Bickford's Group</div>
               </div>
             </td>
             <td>
-              <div>	Personal Project</div>
+              <div> Personal Project</div>
             </td>
             <td className="project-built-with">
               <ul className="flex flex-wrap">
@@ -1208,9 +1198,9 @@ Bickford's Group</div>
                     aria-label=""
                   >
                     <span>
-                    <span>
-                          GitHub
-                          <svg
+                      <span>
+                        GitHub
+                        <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 16 16"
                           fill="currentColor"
@@ -1227,9 +1217,6 @@ Bickford's Group</div>
             </td>
           </tr>
         </tbody>
-
-  
-       
       </table>
     </div>
   );

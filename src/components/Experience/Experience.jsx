@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <div>
       <section className="main-experiences" id="experience">
-        <h3 className="sticky-header-experience uppercase mobile-section-heading">
+        <h3 className="mobile-sticky-header mobile-section-heading uppercase ">
           Experience
         </h3>
 
@@ -114,7 +114,6 @@ export default function Experience() {
         </div>
 
         {/* resume */}
-
         <div className="m-resume">
           <div className="m-block-year"></div>
           <div>
@@ -124,7 +123,7 @@ export default function Experience() {
               rel="noreferrer noopener"
               aria-label="View Full Résumé (opens in a new tab)"
             >
-              <h4 className="m-block-heading">
+              <h4 className="m-resume-heading">
                 View Full Résumé{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

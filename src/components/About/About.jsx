@@ -6,7 +6,7 @@ export default function About() {
     <div>
       {/* about */}
       <section id="about">
-        <h3 className="sticky-header-about uppercase mobile-section-heading">
+        <h3 className="mobile-sticky-header mobile-section-heading uppercase">
           About
         </h3>
 

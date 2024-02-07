@@ -6,19 +6,3 @@
     }
 }
 
-.sticky-header-about {
-    // transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    /* Add smooth transition effect */
-    // backdrop-filter: blur(0);
-
-    backdrop-filter: blur(20px);
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
- 
-}
-
-.scrolled-about{
-    backdrop-filter: blur(20px);
-}

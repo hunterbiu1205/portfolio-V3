@@ -12,17 +12,6 @@
 
 .archive-header {
 
-
-    // margin: 2rem -2rem;
-    // padding: 0rem 2rem;
-
-    // @media screen and (max-width: 768px) {
-    //     display: block;
-    //     margin: 4rem -1rem;
-    //     padding: 0rem 1rem;
-    //     border-radius: 5px;
-    // }
-
     &:hover {
         .left-arrow {
             transform: rotate(180deg) translate(0.4rem, 0rem);
@@ -33,23 +22,15 @@
         font-weight: 600;
         color: var(--secondary-color);
 
-        // @media screen and (max-width: 768px) {
-        //     line-height: 1rem;
-        //     font-weight: 600;
-        // }
-
         &:after {
             content: "";
             display: block;
             position: relative;
             width: 0;
             height: 1px;
-
             margin-top: 5px;
-
             background: var(--secondary-color);
             transition: width 0.3s ease 0s, left 0.3s ease 0s;
-
         }
 
         &:hover:after {
@@ -73,7 +54,6 @@
 
 }
 
-
 table,
 th,
 td {
@@ -96,15 +76,15 @@ td {
             }
 
             @media screen and (max-width: 768px) {
-                th:nth-child(3)  {
+                th:nth-child(3) {
                     display: none;
                 }
 
-                th:nth-child(4)  {
+                th:nth-child(4) {
                     display: none;
                 }
 
-                th:nth-child(5)  {
+                th:nth-child(5) {
                     display: none;
                 }
             }
@@ -126,21 +106,20 @@ td {
                 color: var(--gray-color);
 
                 .content-project-name {
-                    font-size: 16px;
                     color: var(--white-color);
                 }
             }
 
             @media screen and (max-width: 768px) {
-                td:nth-child(3)  {
+                td:nth-child(3) {
                     display: none;
                 }
 
-                td:nth-child(4)  {
+                td:nth-child(4) {
                     display: none;
                 }
 
-                td:nth-child(5)  {
+                td:nth-child(5) {
                     display: none;
                 }
             }
@@ -173,15 +152,14 @@ td {
 }
 
 .sticky-header {
-    transition: background-color 0.3s ease, backdrop-filter 0.3s ease; /* Add smooth transition effect */
-  backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    backdrop-filter: blur(0);
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Ensure the header appears above other content */
-  }
-  
-.scrolled .sticky-header {
+    z-index: 20;
+}
 
-  backdrop-filter: blur(10px);
-  }
+.scrolled .sticky-header {
+    backdrop-filter: blur(10px);
+}

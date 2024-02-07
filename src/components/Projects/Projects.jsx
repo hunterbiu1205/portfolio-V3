@@ -28,7 +28,7 @@ export default function Projects() {
   return (
     <div>
       <section id="projects">
-        <h3 className="sticky-header-projects uppercase mobile-section-heading">
+        <h3 className="mobile-sticky-header mobile-section-heading uppercase">
           Projects
         </h3>
 
@@ -305,7 +305,7 @@ export default function Projects() {
           <div className="m-block-year"></div>
           <div>
             <NavLink to="./archive">
-              <h4 className="m-block-heading">
+              <h4 className="m-project-archive-heading">
                 View Full Project Archive
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
