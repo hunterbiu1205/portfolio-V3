@@ -1,46 +1,66 @@
-import React,{useState,useEffect} from 'react'
+import React from "react";
 import "./Projects.scss";
 import images from "../../constant/images";
 import { NavLink } from "react-router-dom";
 
 export default function Projects() {
+  const toBickfords = () => {
+    window.open("https://www.bickfords.net/", "_blank");
+  };
 
-// const [isSticky,setSticky]=useState(false);
+  const toWheelandbarrow = () => {
+    window.open("https://wheelandbarrow.com.au/cart", "_blank");
+  };
 
-// useEffect(()=>{
-//   const handleScroll = () =>{
-//     const header = document.querySelector('.sticky-header-projects');
-//     const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-//     setSticky(isHeaderAtTop);
-//   };
+  const toYerbi = () => {
+    window.open("https://yerbi.com.au/", "_blank");
+  };
 
-//   window.addEventListener('scroll',handleScroll);
+  const toRestaurant = () => {
+    window.open(
+      "https://hunterbiu1205.github.io/Modern-UI-UX-Restaurant/",
+      "_blank"
+    );
+  };
 
-//   return()=>{
-//     window.removeEventListener('scroll',handleScroll);
-//   }
-// },[]);
+  const isMobile = window.innerWidth <= 768;
 
   return (
     <div>
       <section id="projects">
-
-      {/* <h3 className={`sticky-header-projects uppercase mobile-section-heading ${isSticky ? 'scrolled-projects' : ''}`}>Projects</h3> */}
-
-      <h3 className="sticky-header-projects uppercase mobile-section-heading">Projects</h3>
+        <h3 className="sticky-header-projects uppercase mobile-section-heading">
+          Projects
+        </h3>
 
         {/* Bickford's Australia */}
-        <a href="https://www.bickfords.net/" rel="noreferrer" target="_blank">
-          <div className="m-block">
-            <div>
+
+        <div
+          className="m-block"
+          onClick={isMobile ? null : toBickfords}
+          style={{
+            cursor: isMobile ? "default" : "pointer",
+          }}
+        >
+          <div>
+            <a
+              href="https://www.bickfords.net/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 className="m-project-img"
                 src={images.bickfords}
                 alt="none"
               ></img>
-            </div>
+            </a>
+          </div>
 
-            <div>
+          <div>
+            <a
+              href="https://www.bickfords.net/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <h4 className="m-block-heading">
                 Bickford's Australia
                 <svg
@@ -57,47 +77,60 @@ export default function Projects() {
                   ></path>
                 </svg>
               </h4>
-              <p className="p-text2">
-                Bickford’s website underwent a successful redesign and
-                development, aligning seamlessly with the requirements and brief
-                provided by the marketing team. The results garnered positive
-                reviews internally and externally.
-              </p>
+            </a>
+            <p className="p-text2">
+              Bickford’s website underwent a successful redesign and
+              development, aligning seamlessly with the requirements and brief
+              provided by the marketing team. The results garnered positive
+              reviews internally and externally.
+            </p>
 
-              <ul className="flex flex-wrap">
-                <li>
-                  <div className="skill-tag">WordPress</div>
-                </li>
-                <li>
-                  <div className="skill-tag">PHP</div>
-                </li>
-                <li>
-                  <div className="skill-tag">JavaScript</div>
-                </li>
-                <li>
-                  <div className="skill-tag">HTML & CSS</div>
-                </li>
-              </ul>
-            </div>
+            <ul className="flex flex-wrap">
+              <li>
+                <div className="skill-tag">WordPress</div>
+              </li>
+              <li>
+                <div className="skill-tag">PHP</div>
+              </li>
+              <li>
+                <div className="skill-tag">JavaScript</div>
+              </li>
+              <li>
+                <div className="skill-tag">HTML & CSS</div>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
 
         {/* Wheel&Barrow Cart Page Refresh */}
-        <a
-          href="https://wheelandbarrow.com.au/cart"
-          rel="noreferrer"
-          target="_blank"
+
+        <div
+          className="m-block"
+          onClick={isMobile ? null : toWheelandbarrow}
+          style={{
+            cursor: isMobile ? "default" : "pointer",
+          }}
         >
-          <div className="m-block">
-            <div>
+          <div>
+            <a
+              href="https://wheelandbarrow.com.au/cart"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 className="m-project-img"
                 src={images.WheelBarrow}
                 alt="none"
               ></img>
-            </div>
+            </a>
+          </div>
 
-            <div>
+          <div>
+            <a
+              href="https://wheelandbarrow.com.au/cart"
+              rel="noreferrer"
+              target="_blank"
+            >
               <h4 className="m-block-heading">
                 Wheel&Barrow Cart Page Refresh
                 <svg
@@ -114,42 +147,51 @@ export default function Projects() {
                   ></path>
                 </svg>
               </h4>
-              <p className="p-text2">
-                Revamping the "Wheel & Barrow Cart Page," Redesigned, developed,
-                and published a more organized and aesthetically pleasing
-                layout—a success in enhancing the checkout user experience.
-              </p>
+            </a>
+            <p className="p-text2">
+              Revamping the "Wheel & Barrow Cart Page," Redesigned, developed,
+              and published a more organized and aesthetically pleasing layout—a
+              success in enhancing the checkout user experience.
+            </p>
 
-              <ul className="flex flex-wrap">
-                <li>
-                  <div className="skill-tag">Liquid</div>
-                </li>
-                <li>
-                  <div className="skill-tag">JavaScript</div>
-                </li>
-                <li>
-                  <div className="skill-tag">HTML & CSS</div>
-                </li>
-                <li>
-                  <div className="skill-tag">jQuery</div>
-                </li>
-              </ul>
-            </div>
+            <ul className="flex flex-wrap">
+              <li>
+                <div className="skill-tag">Liquid</div>
+              </li>
+              <li>
+                <div className="skill-tag">JavaScript</div>
+              </li>
+              <li>
+                <div className="skill-tag">HTML & CSS</div>
+              </li>
+              <li>
+                <div className="skill-tag">jQuery</div>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
 
         {/* Yerbi */}
-        <a href="https://yerbi.com.au/" rel="noreferrer" target="_blank">
-          <div className="m-block">
-            <div>
+
+        <div
+          className="m-block"
+          onClick={isMobile ? null : toYerbi}
+          style={{
+            cursor: isMobile ? "default" : "pointer",
+          }}
+        >
+          <div>
+            <a href="https://yerbi.com.au/" rel="noreferrer" target="_blank">
               <img
                 className="m-project-img"
                 src={images.yerbi}
                 alt="none"
-              ></img>
-            </div>
+              ></img>{" "}
+            </a>
+          </div>
 
-            <div>
+          <div>
+            <a href="https://yerbi.com.au/" rel="noreferrer" target="_blank">
               <h4 className="m-block-heading">
                 yerbi.com.au
                 <svg
@@ -166,47 +208,60 @@ export default function Projects() {
                   ></path>
                 </svg>
               </h4>
-              <p className="p-text2">
-                A visually stunning single-page website for the new product
-                'Yerbi,' based on the compelling mock-up designed by the UI
-                designer. The website showcases the product's excellence with an
-                appealing and user-friendly interface.
-              </p>
+            </a>
+            <p className="p-text2">
+              A visually stunning single-page website for the new product
+              'Yerbi,' based on the compelling mock-up designed by the UI
+              designer. The website showcases the product's excellence with an
+              appealing and user-friendly interface.
+            </p>
 
-              <ul className="flex flex-wrap">
-                <li>
-                  <div className="skill-tag">Wordpress</div>
-                </li>
-                <li>
-                  <div className="skill-tag">PHP</div>
-                </li>
-                <li>
-                  <div className="skill-tag">JavaScript</div>
-                </li>
-                <li>
-                  <div className="skill-tag">HTML & CSS</div>
-                </li>
-              </ul>
-            </div>
+            <ul className="flex flex-wrap">
+              <li>
+                <div className="skill-tag">Wordpress</div>
+              </li>
+              <li>
+                <div className="skill-tag">PHP</div>
+              </li>
+              <li>
+                <div className="skill-tag">JavaScript</div>
+              </li>
+              <li>
+                <div className="skill-tag">HTML & CSS</div>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
 
         {/* Modern Restaurant */}
-        <a
-          href="https://hunterbiu1205.github.io/Modern-UI-UX-Restaurant/"
-          rel="noreferrer"
-          target="_blank"
+
+        <div
+          className="m-block"
+          onClick={isMobile ? null : toRestaurant}
+          style={{
+            cursor: isMobile ? "default" : "pointer",
+          }}
         >
-          <div className="m-block">
-            <div>
+          <div>
+            <a
+              href="https://hunterbiu1205.github.io/Modern-UI-UX-Restaurant/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 className="m-project-img"
                 src={images.restaurant}
                 alt="none"
-              ></img>
-            </div>
+              ></img>{" "}
+            </a>
+          </div>
 
-            <div>
+          <div>
+            <a
+              href="https://hunterbiu1205.github.io/Modern-UI-UX-Restaurant/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <h4 className="m-block-heading">
                 Modern UI/UX Restaurant
                 <svg
@@ -223,34 +278,33 @@ export default function Projects() {
                   ></path>
                 </svg>
               </h4>
-              <p className="p-text2">
-                A Fully Responsive Restaurant Website with Modern UI and UX in
-                ReactJS
-              </p>
+            </a>
+            <p className="p-text2">
+              A Fully Responsive Restaurant Website with Modern UI and UX in
+              ReactJS
+            </p>
 
-              <ul className="flex flex-wrap">
-                <li>
-                  <div className="skill-tag">React</div>
-                </li>
-                <li>
-                  <div className="skill-tag">SCSS</div>
-                </li>
-                <li>
-                  <div className="skill-tag">UI/UX</div>
-                </li>
-                <li>
-                  <div className="skill-tag">Git</div>
-                </li>
-              </ul>
-            </div>
+            <ul className="flex flex-wrap">
+              <li>
+                <div className="skill-tag">React</div>
+              </li>
+              <li>
+                <div className="skill-tag">SCSS</div>
+              </li>
+              <li>
+                <div className="skill-tag">UI/UX</div>
+              </li>
+              <li>
+                <div className="skill-tag">Git</div>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
 
         <div className="m-project-archive">
           <div className="m-block-year"></div>
           <div>
-          <NavLink to="./archive">
-
+            <NavLink to="./archive">
               <h4 className="m-block-heading">
                 View Full Project Archive
                 <svg
