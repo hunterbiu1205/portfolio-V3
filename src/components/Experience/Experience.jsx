@@ -1,36 +1,36 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from "react";
 import "./Experience.scss";
-import Resume from "../../assets/Hunter-Dong-Resume.pdf"
+import Resume from "../../assets/Hunter-Dong-Resume.pdf";
 
 export default function Experience() {
+  // const[isSticky,setSticky] =useState(false);
 
+  // useEffect(()=>{
+  //   const handleScroll =()=>{
+  //     const header = document.querySelector('.sticky-header-experience');
+  //     const isHeaderAtTop = header.getBoundingClientRect().top === 0;
+  //     setSticky(isHeaderAtTop);
+  //   };
 
-// const[isSticky,setSticky] =useState(false);
+  //   window.addEventListener('scroll',handleScroll);
 
-// useEffect(()=>{
-//   const handleScroll =()=>{
-//     const header = document.querySelector('.sticky-header-experience');
-//     const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-//     setSticky(isHeaderAtTop);
-//   };
-
-//   window.addEventListener('scroll',handleScroll);
-
-//   return()=>{
-//     window.removeEventListener('scroll',handleScroll);
-//   };
-// },[]);
+  //   return()=>{
+  //     window.removeEventListener('scroll',handleScroll);
+  //   };
+  // },[]);
 
   return (
     <div>
       <section className="main-experiences" id="experience">
+        {/* <h3 className={`sticky-header-experience uppercase mobile-section-heading ${isSticky ? 'scrolled-experience' : ''}`}>Experience</h3> */}
 
-      {/* <h3 className={`sticky-header-experience uppercase mobile-section-heading ${isSticky ? 'scrolled-experience' : ''}`}>Experience</h3> */}
-
-      <h3 className="sticky-header-experience uppercase mobile-section-heading">Experience</h3>
+        <h3 className="sticky-header-experience uppercase mobile-section-heading">
+          Experience
+        </h3>
 
         {/* Bickford's group */}
         <a
+          className="mobile-disabled"
           href="https://www.bickfordsgroup.com/"
           rel="noreferrer"
           target="_blank"
@@ -41,22 +41,28 @@ export default function Experience() {
             </div>
 
             <div>
-              <h4 className="m-block-heading">
-                Bickford's Group - Web developer{" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="up-right-arrow"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </h4>
+              <a
+                href="https://www.bickfordsgroup.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <h4 className="m-block-heading">
+                  Bickford's Group - Web developer{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="up-right-arrow"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </h4>
+              </a>
               <p className="p-text2">
                 Build, design, maintain and ship high-quality websites and
                 solutions for a diverse array of projects. Played a crucial role
@@ -153,4 +159,4 @@ export default function Experience() {
       </section>
     </div>
   );
-};
+}
