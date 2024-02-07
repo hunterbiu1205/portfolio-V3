@@ -19,12 +19,6 @@ export default function Experience() {
   //   };
   // },[]);
 
-  const redirectToExample = () => {
-    window.location.href = "https://example.com";
-  };
-
-  const isMobile = window.innerWidth <= 768; 
-
   return (
     <div>
       <section className="main-experiences" id="experience">
@@ -35,17 +29,13 @@ export default function Experience() {
         </h3>
 
         {/* Bickford's group */}
-        {/* <a
+        <a
           className="mobile-disabled"
           href="https://www.bickfordsgroup.com/"
           rel="noreferrer"
           target="_blank"
-        > */}
-          <div className="m-block"    onClick={isMobile ? null : redirectToExample}
-          style={{
-            cursor: isMobile ? "default" : "pointer",
-    
-          }}>
+        >
+          <div className="m-block">
             <div>
               <h4 className="m-block-year">2022 - Present</h4>
             </div>
@@ -114,7 +104,7 @@ export default function Experience() {
               </ul>
             </div>
           </div>
-        {/* </a> */}
+        </a>
 
         {/* coast guard */}
         <div className="m-block">
