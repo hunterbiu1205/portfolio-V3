@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-V3/static/css/main.9e6ba789.css",
-    "main.js": "/portfolio-V3/static/js/main.559efed2.js",
-    "static/js/787.d4aba7ab.chunk.js": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js",
-    "static/media/Modern UI UX Restaurant.png": "/portfolio-V3/static/media/Modern UI UX Restaurant.46108b0f61ef7ce2637c.png",
-    "static/media/projects-bickfords.png": "/portfolio-V3/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
-    "static/media/yerbi.png": "/portfolio-V3/static/media/yerbi.2a44f404bba259529a30.png",
-    "static/media/w&b cart page refresh.png": "/portfolio-V3/static/media/w&b cart page refresh.292d3d014fd45f810aec.png",
-    "static/media/Hunter-Dong-Resume.pdf": "/portfolio-V3/static/media/Hunter-Dong-Resume.8309e2b7e32139494c8c.pdf",
-    "index.html": "/portfolio-V3/index.html",
-    "main.9e6ba789.css.map": "/portfolio-V3/static/css/main.9e6ba789.css.map",
-    "main.559efed2.js.map": "/portfolio-V3/static/js/main.559efed2.js.map",
-    "787.d4aba7ab.chunk.js.map": "/portfolio-V3/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/static/css/main.22c2676f.css",
+    "main.js": "/static/js/main.fb018676.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/Modern UI UX Restaurant.png": "/static/media/Modern UI UX Restaurant.46108b0f61ef7ce2637c.png",
+    "static/media/projects-bickfords.png": "/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
+    "static/media/yerbi.png": "/static/media/yerbi.2a44f404bba259529a30.png",
+    "static/media/w&b cart page refresh.png": "/static/media/w&b cart page refresh.292d3d014fd45f810aec.png",
+    "static/media/Hunter-Dong-Resume.pdf": "/static/media/Hunter-Dong-Resume.8309e2b7e32139494c8c.pdf",
+    "index.html": "/index.html",
+    "main.22c2676f.css.map": "/static/css/main.22c2676f.css.map",
+    "main.fb018676.js.map": "/static/js/main.fb018676.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e6ba789.css",
-    "static/js/main.559efed2.js"
+    "static/css/main.22c2676f.css",
+    "static/js/main.fb018676.js"
   ]
 }
