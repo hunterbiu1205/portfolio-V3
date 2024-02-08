@@ -4,7 +4,12 @@
     @media screen and (max-width: 768px) {
         padding-top: 2rem;
     }
+
+    h3{
+        margin-bottom: 1rem;
+    }
 }
+
 
 .m-project-img {
     width: 130px;
@@ -17,7 +22,9 @@
 .m-project-archive {
     display: flex;
     margin: 3rem 0rem;
-
+    @media screen and (max-width: 768px) {
+        margin: 2rem 0rem;
+    }
     .m-block-year {
         width: 150px;
 

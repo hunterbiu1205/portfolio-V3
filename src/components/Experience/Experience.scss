@@ -5,10 +5,19 @@
         padding-top: 3rem;
     }
 
+    h3{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
     .m-resume {
         display: flex;
         margin: 3rem 0rem;
 
+
+        @media screen and (max-width: 768px) {
+            margin: 2rem 0rem;
+        }
         .m-block-year {
             width: 150px;
 
