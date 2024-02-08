@@ -1,23 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Archive.scss";
 
 export default function Archive() {
-  const [isSticky, setSticky] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const header = document.querySelector(".sticky-header");
-      const isHeaderAtTop = header.getBoundingClientRect().top === 0;
-      setSticky(isHeaderAtTop);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <div className="app max-w-screen-xl mx-auto app-archive">
@@ -44,8 +30,8 @@ export default function Archive() {
         </Link>
       </div>
 
-      <table id="content" className={`App ${isSticky ? "scrolled" : ""}`}>
-        <thead className="sticky-header">
+      <table id="content">
+        <thead className="sticky-header ">
           <tr>
             <th>Year</th>
             <th>Project</th>
