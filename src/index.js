@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -25,9 +25,9 @@ const AppWithCursor = () => {
   }, []);
 
   return (
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <Router>
+    <App />
+  </Router>
   );
 };
 
