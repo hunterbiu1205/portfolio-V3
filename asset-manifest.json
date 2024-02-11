@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.71a227a1.css",
-    "main.js": "/static/js/main.fb018676.js",
+    "main.js": "/static/js/main.2f694f00.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/Modern UI UX Restaurant.png": "/static/media/Modern UI UX Restaurant.46108b0f61ef7ce2637c.png",
     "static/media/projects-bickfords.png": "/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
@@ -10,11 +10,11 @@
     "static/media/Hunter-Dong-Resume.pdf": "/static/media/Hunter-Dong-Resume.8309e2b7e32139494c8c.pdf",
     "index.html": "/index.html",
     "main.71a227a1.css.map": "/static/css/main.71a227a1.css.map",
-    "main.fb018676.js.map": "/static/js/main.fb018676.js.map",
+    "main.2f694f00.js.map": "/static/js/main.2f694f00.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71a227a1.css",
-    "static/js/main.fb018676.js"
+    "static/js/main.2f694f00.js"
   ]
 }
