@@ -1,18 +1,18 @@
 import './App.scss';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Archive from './pages/Archive/Archive';
 import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <ScrollToTop />
-      <Switch>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/archive" element={<Archive />} />
-      </Switch>
-    </Router>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
