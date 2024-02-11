@@ -1,18 +1,20 @@
 import './App.scss';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Import HashRouter instead of BrowserRouter
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Archive from './pages/Archive/Archive';
 import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter>
+    // Use HashRouter instead of BrowserRouter
+    <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/archive" element={<Archive />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
