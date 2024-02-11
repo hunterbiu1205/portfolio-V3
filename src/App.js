@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/archive" element={<Archive />} />
+        <Route path="/portfolio-V3" element={<Home />} />
+        <Route path="/portfolio-V3/archive" element={<Archive />} />
         {/* Catch-all route for any unknown paths */}
         <Route path="*" element={<NotFound />} />
       </Routes>
