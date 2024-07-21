@@ -1,0 +1,119 @@
+.app-header {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: var(--primary-color);
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: auto;
+
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+
+    .header-title {
+
+        p {
+            line-height: 2rem;
+            font-size: 30px;
+            color: var(--secondary-color);
+
+            @media screen and (max-width: 768px) {
+                line-height: 1.5rem;
+                font-size: 25px;
+            }
+        }
+
+        h1 {
+            line-height: 2rem;
+            margin-left: -0.2rem;
+            font-size: 50px;
+
+            @media screen and (max-width: 768px) {
+                line-height: 1.5rem;
+                font-size: 40px;
+            }
+        }
+
+        h3 {
+            line-height: 2rem;
+            font-weight: 500;
+            color: var(--gray-color);
+
+            @media screen and (max-width: 768px) {
+                line-height: 1.5rem;
+            }
+        }
+
+    }
+
+    .header-menu {
+        margin-top: 3rem;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        a {
+            width: 160px;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            font-size: 14px;
+
+            &.active {
+                font-weight: 600;
+                color: var(--primary-color);
+                transition: .25s linear 0s;
+
+                .header-menu-line {
+                    height: 1px;
+                    width: 70px;
+                    background: var(--primary-color);
+                    transition: .25s linear 0s;
+                }
+            }
+
+            &:hover {
+
+                font-weight: 600;
+                color: var(--primary-color);
+                transition: .25s linear 0s;
+
+                .header-menu-line {
+                    height: 1px;
+                    width: 70px;
+                    background: var(--primary-color);
+                    transition: .25s linear 0s;
+                }
+            }
+
+            .header-menu-line {
+                height: 1px;
+                width: 45px;
+                margin-top: 0.2rem;
+                margin-right: 0.75rem;
+                background: var(--gray-color);
+            }
+        }
+
+    }
+
+    .header-social {
+        margin-top: 2rem;
+        &:hover {
+            svg {
+                fill: var(--primary-color);
+                transition: .25s linear 0s;
+            }
+        }
+
+    }
+}
