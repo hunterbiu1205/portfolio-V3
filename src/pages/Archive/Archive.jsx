@@ -41,6 +41,196 @@ export default function Archive() {
           </tr>
         </thead>
 
+
+        {/* project0 */}
+        <tbody>
+          <tr>
+            <td>
+              <div>2024</div>
+            </td>
+            <td>
+              <div className="mobile-hidden content-project-name">
+                Beresford Shopify Store
+              </div>
+
+              <div class="desk-hidden">
+                <a
+                  href="https://beresfordestate.com.au/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label=""
+                >
+                  <span>
+                    <span className=" content-project-name">
+                      Beresford Shopify Store
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="up-right-arrow"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div>Bickford's Group</div>
+            </td>
+            <td className="project-built-with">
+              <ul className="flex flex-wrap">
+                <li>
+                  <div className="skill-tag">Shopify Liquid</div>
+                </li>
+                <li>
+                  <div className="skill-tag">JavaScript</div>
+                </li>
+                <li>
+                  <div className="skill-tag">HTML & CSS</div>
+                </li>
+                <li>
+                  <div className="skill-tag">Shopify API</div>
+                </li>
+                <li>
+                  <div className="skill-tag">JQuery</div>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  <a
+                    href="https://beresfordestate.com.au/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    aria-label=""
+                  >
+                    <span>
+                      <span>
+                        beresfordestate.com.au
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="up-right-arrow"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+
+
+
+        {/* project1 */}
+        <tbody>
+          <tr>
+            <td>
+              <div>2024</div>
+            </td>
+            <td>
+              <div className="mobile-hidden content-project-name">
+                Cafecino
+              </div>
+
+              <div class="desk-hidden">
+                <a
+                  href="https://cafecino.com.au/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label=""
+                >
+                  <span>
+                    <span className=" content-project-name">
+                      Cafecino
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="up-right-arrow"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div>Bickford's Group</div>
+            </td>
+            <td className="project-built-with">
+              <ul className="flex flex-wrap">
+                <li>
+                  <div className="skill-tag">WordPress</div>
+                </li>
+                <li>
+                  <div className="skill-tag">HTML & CSS</div>
+                </li>
+                <li>
+                  <div className="skill-tag">JavaScript</div>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  <a
+                    href="https://cafecino.com.au/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    aria-label=""
+                  >
+                    <span>
+                      <span>
+                        cafecino.com.au
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="up-right-arrow"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+
+
+
+
         {/* project1 */}
         <tbody>
           <tr>

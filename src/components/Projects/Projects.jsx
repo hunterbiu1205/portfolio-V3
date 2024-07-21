@@ -4,6 +4,10 @@ import images from "../../constant/images";
 import { NavLink } from "react-router-dom";
 
 export default function Projects() {
+  const toBeresford = () => {
+    window.open("https://beresfordestate.com.au/", "_blank");
+  };
+
   const toBickfords = () => {
     window.open("https://www.bickfords.net/", "_blank");
   };
@@ -31,6 +35,73 @@ export default function Projects() {
         <h3 className="mobile-sticky-header mobile-section-heading uppercase">
           Projects
         </h3>
+
+        {/* Beresford Shopify Store */}
+
+        <div
+          className="m-block"
+          onClick={isMobile ? null : toBeresford}
+          style={{
+            cursor: isMobile ? "default" : "pointer",
+          }}
+        >
+          <div>
+            <a
+              href="https://beresfordestate.com.au/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="m-project-img"
+                src={images.beresford}
+                alt="none"
+              ></img>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="https://beresfordestate.com.au/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <h4 className="m-block-heading">
+                Beresford Shopify Store
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="up-right-arrow"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </h4>
+            </a>
+            <p className="p-text2">
+              Beresford Estate’s Shopify store was completely redesigned and developed to perfectly match the project requirements and objectives. The new Wine Club system where customers can subscribe to receive curated selections of our exceptional wines. The integration with QAD, our comprehensive CMS system, ensures efficient inventory management and order fulfillment.
+            </p>
+
+            <ul className="flex flex-wrap">
+              <li>
+                <div className="skill-tag">Liquid</div>
+              </li>
+              <li>
+                <div className="skill-tag">Shopify API</div>
+              </li>
+              <li>
+                <div className="skill-tag">JavaScript</div>
+              </li>
+              <li>
+                <div className="skill-tag">HTML & CSS</div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {/* Bickford's Australia */}
 
@@ -235,7 +306,7 @@ export default function Projects() {
 
         {/* Modern Restaurant */}
 
-        <div
+        {/* <div
           className="m-block"
           onClick={isMobile ? null : toRestaurant}
           style={{
@@ -299,7 +370,7 @@ export default function Projects() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="m-project-archive">
           <div className="m-block-year"></div>
