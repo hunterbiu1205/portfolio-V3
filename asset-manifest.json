@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.71a227a1.css",
-    "main.js": "/static/js/main.9cbe0882.js",
-    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
-    "static/media/beresford.png": "/static/media/beresford.14ceb9c2e6fafea24606.png",
-    "static/media/Modern UI UX Restaurant.png": "/static/media/Modern UI UX Restaurant.46108b0f61ef7ce2637c.png",
-    "static/media/projects-bickfords.png": "/static/media/projects-bickfords.92499eb39421bc7ca0cb.png",
-    "static/media/yerbi.png": "/static/media/yerbi.2a44f404bba259529a30.png",
-    "static/media/w&b cart page refresh.png": "/static/media/w&b cart page refresh.292d3d014fd45f810aec.png",
+    "main.css": "/static/css/main.7f6375d2.css",
+    "main.js": "/static/js/main.96be894d.js",
     "static/media/Hunter-Dong-Resume.pdf": "/static/media/Hunter-Dong-Resume.8309e2b7e32139494c8c.pdf",
+    "static/media/bickfords.webp": "/static/media/bickfords.54a95b8e19a269cab98d.webp",
+    "static/media/beresford.webp": "/static/media/beresford.25d9775932fe7ab0ac73.webp",
+    "static/media/yerbi.webp": "/static/media/yerbi.2a9177c62e38d55aab8a.webp",
+    "static/media/wheel-and-barrow-cart.webp": "/static/media/wheel-and-barrow-cart.ab3e937193c88a8d76e2.webp",
     "index.html": "/index.html",
-    "main.71a227a1.css.map": "/static/css/main.71a227a1.css.map",
-    "main.9cbe0882.js.map": "/static/js/main.9cbe0882.js.map",
-    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+    "main.7f6375d2.css.map": "/static/css/main.7f6375d2.css.map",
+    "main.96be894d.js.map": "/static/js/main.96be894d.js.map"
   },
   "entrypoints": [
-    "static/css/main.71a227a1.css",
-    "static/js/main.9cbe0882.js"
+    "static/css/main.7f6375d2.css",
+    "static/js/main.96be894d.js"
   ]
 }
