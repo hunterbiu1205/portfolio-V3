@@ -1,5 +1,4 @@
-import {Header, Main} from '../../components';
-import './Home.scss';
+import { Header, Main } from '../../components';
 
 export default function Home() {
   return (
@@ -8,4 +7,4 @@ export default function Home() {
       <Main />
     </div>
   );
-};
+}
