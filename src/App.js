@@ -7,7 +7,7 @@ import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
