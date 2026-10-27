@@ -1,3 +1,5 @@
+@use "../../styles/mixins" as *;
+
 .app-main {
     width: 50%;
     box-sizing: border-box;
@@ -8,8 +10,13 @@
         width: 100%;
     }
 
+    // Section titles: shown as sticky bars on mobile, kept for screen readers on desktop.
     .mobile-section-heading {
-        display: none;
+        font-size: 1.17em;
+
+        @media screen and (min-width: 769px) {
+            @include visually-hidden;
+        }
 
         @media screen and (max-width: 768px) {
             display: block;
@@ -30,6 +37,7 @@
 
 
     .m-block {
+        position: relative;
         display: flex;
         margin: 2rem -2rem 0rem -2rem;
         padding: 0rem 2rem;
@@ -43,6 +51,7 @@
 
         .m-block-year {
             width: 150px;
+            margin: 1.33em 0;
             font-weight: 500;
 
             @media screen and (max-width: 768px) {
@@ -53,6 +62,8 @@
         }
 
         .m-block-heading {
+            margin: 1.33em 0;
+            font-size: 1em;
             font-weight: 600;
             color: var(--white-color);
 
@@ -62,7 +73,20 @@
             }
         }
 
-        &:hover {
+        // The heading link stretches over the whole card, so the card is one click target.
+        .m-block-link {
+            color: inherit;
+
+            &::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                z-index: 1;
+            }
+        }
+
+        &:hover,
+        &:focus-within {
             box-shadow: 0 0 1px #363636;
             background: #0e0e0ea1;
             transition: .25s linear 0s;
@@ -84,5 +108,9 @@
         ul {
             margin-bottom: 1.5rem;
         }
+    }
+
+    .m-block-clickable {
+        cursor: pointer;
     }
 }

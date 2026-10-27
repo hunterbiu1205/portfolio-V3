@@ -12,13 +12,10 @@
 
 .archive-header {
 
-    &:hover {
-        .left-arrow {
-            transform: rotate(180deg) translate(0.4rem, 0rem);
-        }
-    }
-
-    h4 {
+    .archive-back {
+        display: block;
+        width: fit-content;
+        margin: 1.33em 0;
         font-weight: 600;
         color: var(--secondary-color);
 
@@ -33,7 +30,15 @@
             transition: width 0.3s ease 0s, left 0.3s ease 0s;
         }
 
-        &:hover:after {
+        &:hover,
+        &:focus-visible {
+            .left-arrow {
+                transform: rotate(180deg) translate(0.4rem, 0rem);
+            }
+        }
+
+        &:hover:after,
+        &:focus-visible:after {
             width: 125px;
             margin-left: -5px;
         }
@@ -48,7 +53,7 @@
 
         @media screen and (max-width: 768px) {
             line-height: 1.5rem;
-            font-size: 40px;
+            font-size: clamp(28px, 10.5vw, 40px);
         }
     }
 
@@ -130,12 +135,10 @@ td {
         }
     }
 
-    li {
-        a {
-            padding: 1rem 0;
-        }
-
-        &:hover {
+    .project-link a,
+    .desk-hidden a {
+        &:hover,
+        &:focus-visible {
             transition: .25s linear 0s;
 
             span {

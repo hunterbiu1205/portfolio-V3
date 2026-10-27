@@ -5,7 +5,7 @@
         padding-top: 3rem;
     }
 
-    h3{
+    .mobile-section-heading {
         margin-top: 1rem;
         margin-bottom: 1.5rem;
     }
@@ -27,6 +27,8 @@
         }
 
         .m-resume-heading {
+            display: block;
+            margin: 1.33em 0;
             font-weight: 600;
             color: var(--white-color);
 
@@ -51,6 +53,20 @@
             }
 
             &:hover:after {
+                width: 101%;
+            }
+        }
+
+        // Keyboard focus mirrors the hover state.
+        a:focus-visible .m-resume-heading {
+            color: var(--secondary-color);
+
+            .up-right-arrow {
+                color: var(--secondary-color);
+                transform: translate(0.25rem, -0.25rem);
+            }
+
+            &:after {
                 width: 101%;
             }
         }

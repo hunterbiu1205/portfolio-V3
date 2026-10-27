@@ -5,7 +5,7 @@
         padding-top: 2rem;
     }
 
-    h3{
+    .mobile-section-heading {
         margin-bottom: 1rem;
     }
 }
@@ -13,6 +13,7 @@
 
 .m-project-img {
     width: 130px;
+    height: auto;
     border-radius: 3px;
     margin-top: 1.5rem;
     margin-right: 1rem;
@@ -34,6 +35,8 @@
     }
 
     .m-project-archive-heading {
+        display: block;
+        margin: 1.33em 0;
         font-weight: 600;
         color: var(--white-color);
 
@@ -58,6 +61,20 @@
         }
 
         &:hover:after {
+            width: 102%;
+        }
+    }
+
+    // Keyboard focus mirrors the hover state.
+    a:focus-visible .m-project-archive-heading {
+        color: var(--secondary-color);
+
+        .right-arrow {
+            color: var(--secondary-color);
+            transform: translate(0.4rem, 0rem);
+        }
+
+        &:after {
             width: 102%;
         }
     }

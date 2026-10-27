@@ -39,11 +39,13 @@
 
             @media screen and (max-width: 768px) {
                 line-height: 1.5rem;
-                font-size: 40px;
+                font-size: clamp(28px, 10.5vw, 40px);
             }
         }
 
-        h3 {
+        .header-subtitle {
+            margin: 1em 0;
+            font-size: 1.17em;
             line-height: 2rem;
             font-weight: 500;
             color: var(--gray-color);
@@ -81,8 +83,8 @@
                 }
             }
 
-            &:hover {
-
+            &:hover,
+            &:focus-visible {
                 font-weight: 600;
                 color: var(--primary-color);
                 transition: .25s linear 0s;
@@ -108,7 +110,8 @@
 
     .header-social {
         margin-top: 2rem;
-        &:hover {
+        a:hover,
+        a:focus-visible {
             svg {
                 fill: var(--primary-color);
                 transition: .25s linear 0s;
